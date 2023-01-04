@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "myFont";
+  src: url("../Fonts/Koulen-Regular.ttf");
+}
+body {
+  background: url("../assets/body_image.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.logo {
+  margin-left: 1.25vw;
+  margin-top: 1.75vh;
+  margin-bottom: 88vh;
+}
+
+.left-bar {
+  background-color: white;
+  height: 80vh;
+  width: 0.02vw;
+  margin-top: 15vh;
+  margin-left: 2.5vw;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.text-info-box {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  margin-top: 45vh;
+  margin-left: 10vw;
+}
+
+.text-one {
+  font-family: "myFont";
+  font-size: 2em;
+  color: white;
+  margin-top: 0px;
+  font-weight: bolder;
+  padding: 0px;
+  margin-bottom: -100px;
+}
+
+.text-two {
+  font-family: "myFont";
+  font-size: 4em;
+  color: white;
+  font-weight: bolder;
+  padding: 0px;
+  margin-bottom: -50px;
+}
+
+.text-three {
+  font-family: "Inter";
+  font-size: 1.5em;
+  color: white;
+  padding: 0px;
+  margin-bottom: -20px;
+}
+
+.text-four {
+  font-family: "Inter";
+  font-size: 1.5em;
+  color: #FF7E45;
+  padding: 0px;
+}
+
+.button-resume {
+  color: #FF7E45;
+  text-decoration: none;
+}
+
+.right-bar {
+  background-color: white;
+  float: right;
+  height: 55vh;
+  width: 0.02vw;
+  margin-top: 15vh;
+  margin-right: 2.5vw;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 5vw;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-top: 75vh;
+}
+
+.logo-container > .icon {
+  width: 100%;
+  margin-bottom: 2vh;
+  text-align: center;
+  font-size: 30px;
+}/*# sourceMappingURL=HomePage.css.map */

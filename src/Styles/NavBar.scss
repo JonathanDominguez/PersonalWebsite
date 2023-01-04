@@ -1,0 +1,55 @@
+@import "../Variables/Variables.scss";
+.main-container {
+    height: 5vh;
+    width: fit-content;
+    display: flex;
+    float: right;
+    margin-top: 3.5vh;
+    z-index: 4;
+    position: sticky;
+} 
+.flex-child {
+    margin-right: 2.5vw;
+    text-align: center;
+    width: -moz-fit-content;
+    width: fit-content;
+}  
+.box-this{
+    height: 0.1vh;
+    width: 100%;
+    background-color: white;
+}
+.box-this-about-me{
+    height: 0.1vh;
+    width: 100%;
+    background-color: #777777;
+}
+.text-this{
+    margin-top: 0.2em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.text-this-about-me{
+    margin-top: 0.2em;
+    font-size: 1.5em;
+    color: #777777;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.flex-child:hover .text-this{ 
+    color: $orangeColor;
+}
+.flex-child:hover .box-this{ 
+    background-color: $orangeColor;
+}
+.nav-button{
+    background-color: transparent;
+    margin-top: 0.2em;
+    border:none; 
+    padding: 0px 0px;
+    font-weight: bolder;
+    text-decoration: none;
+}

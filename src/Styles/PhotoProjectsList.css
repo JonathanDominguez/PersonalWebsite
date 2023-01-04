@@ -1,0 +1,39 @@
+.PhotoList-main {
+  padding: 121vh 0vh 10vh 0vh;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0vh 15vw 0vh 15vw;
+  height: 62vh;
+  margin-bottom: 10vh;
+  padding-bottom: 1vh;
+}
+
+.grid-showcase-item {
+  border: 1vw;
+  padding: 0px 0px 0px 0px;
+}
+
+.button-project {
+  height: 62vh;
+  border: none;
+  background-color: transparent;
+}
+
+.grid-showcase-item .images {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.grid-showcase-item:hover img {
+  transform: scale(0.98);
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.titleOfProject {
+  font-size: 1.2rem;
+  font-weight: 500;
+}/*# sourceMappingURL=PhotoProjectsList.css.map */

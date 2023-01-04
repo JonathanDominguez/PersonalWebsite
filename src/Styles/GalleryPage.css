@@ -1,0 +1,64 @@
+.select-photo-nav {
+  margin: 0vh 5vw -10vh 5vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2vh 0.5vw 2vh 0.5vw;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 20px 14px 0px;
+  text-decoration: none;
+}
+
+.name-title-gallery {
+  height: 2.2vh;
+  font-family: Helvetica;
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-top: 4vh;
+  margin-left: 2.5vw;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+}
+
+.left-bar-gallery {
+  background-color: white;
+  height: 80vh;
+  width: 0.02vw;
+  margin-top: 10vh;
+  margin-left: 2.5vw;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.right-bar-gallery {
+  background-color: white;
+  float: right;
+  height: 80vh;
+  width: 0.02vw;
+  margin-top: 10vh;
+  margin-right: 2.5vw;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}/*# sourceMappingURL=GalleryPage.css.map */

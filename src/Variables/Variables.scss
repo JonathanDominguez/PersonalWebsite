@@ -1,0 +1,21 @@
+// Main colors
+$orangeColor: #FF7E45;
+$blueColor: #4B99C0;
+
+// Fonts
+$mainFont: 'Inter';
+// @import url('https://fonts.googleapis.com/css?family=Koulen');
+// $font-main: 'Overpass', sans-serif;
+
+@font-face {
+    font-family: 'myFont';
+    src: url("../Fonts/Koulen-Regular.ttf") ;
+}
+$introFont: 'myFont';
+
+// $introFont: 'Koulen',sans-serif;;
+
+// Mixins
+@mixin hastTagStyles {
+    
+}

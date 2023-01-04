@@ -1,0 +1,61 @@
+.parent-images {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;
+  position: absolute;
+  scroll-behavior: smooth;
+}
+
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.parent-images .scrollBar {
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.child {
+  height: 100vh;
+  padding: 0px 3px 0px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+}
+
+.first-child {
+  padding-left: 0px;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 30px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-box {
+  height: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -20vh;
+}
+
+.button-down {
+  background-color: transparent;
+  border: none;
+}/*# sourceMappingURL=Carousel.css.map */

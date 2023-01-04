@@ -1,0 +1,55 @@
+@import "../Variables/Variables.scss";
+
+.frame{
+    background-color: #ffffff;
+    height: 100vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10vw;
+    margin-right: 20vw;
+    height: 100vh;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 4vh 0vw 0vw 10vw;
+}
+.information-side{
+    margin-bottom: 42vh;
+}
+.title-of-project{
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 0vh;
+}
+.project-from{
+    font-weight: 400;
+}
+.project-info{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.project-link{
+    color: #FF7E45;
+    font-weight: 600;
+    text-decoration: none;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 0vh;
+}
+// Tags for projects
+.tag-titles{
+    background-color: #EBF1F4;   
+    float: left;
+    text-align: center;
+    padding: 0.1rem 1.5rem;
+    margin-right: 1vw;
+}
+.image-project-one{
+    margin-left: -4vw;
+}
+.image-project-two{
+    margin-top: -35vh;
+}

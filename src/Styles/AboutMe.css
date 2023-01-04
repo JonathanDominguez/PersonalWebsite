@@ -1,0 +1,47 @@
+.AboutMePage-body {
+  height: 130vh;
+  background-color: #ffffff;
+}
+
+.text-this {
+  color: white;
+}
+
+.logoForSniffy {
+  margin-left: 1.25vw;
+  margin-top: 1.75vh;
+}
+
+.imageBox {
+  margin-bottom: 3vh;
+  height: 75vh;
+}
+
+.imageOfMe {
+  position: absolute;
+  left: 50%;
+  width: 340px;
+  margin-top: 0vh;
+  margin-left: -170px;
+}
+
+.info-text-box {
+  text-align: center;
+  margin: -12vh 15vw 0vh 15vw;
+}
+
+.name-title-about {
+  font-family: Work Sans, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: #515151;
+  margin-bottom: 0px;
+  margin-top: 0vh;
+}
+
+.info-box {
+  font-family: Work Sans, sans-serif;
+  color: #777777;
+  margin: 1em 0;
+  line-height: 1.8;
+}/*# sourceMappingURL=AboutMe.css.map */
